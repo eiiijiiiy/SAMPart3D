@@ -63,9 +63,9 @@ scheduler = dict(
 
 # dataset settings
 dataset_type = "SAMPart3DDataset16Views"
-data_root = ""
-mesh_root = ""
-backbone_weight_path = ""
+data_root = "../../exper/data"
+mesh_root = "../../exper/model"
+backbone_weight_path = "../../exper/ptv3-object.pth"
 
 # eval
 val_scales_list = [0.0, 0.5, 1.0, 1.5, 2.0]
